@@ -1,0 +1,16 @@
+{
+    "name": "monkeymatch",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "frontend",
+        "backend"
+    ],
+    "scripts": {
+        "install-all": "npm install --workspaces",
+        "start": "concurrently \"npm start --prefix backend\" \"npm run dev --prefix frontend\""
+    },
+    "dependencies": {
+        "concurrently": "^7.6.0"
+    }
+}
