@@ -36,7 +36,7 @@
 
 3. **Install dependencies**:
    ```bash
-   npm run install-all
+   npm install
    ```
 
 ---
